@@ -67,17 +67,20 @@ export default {
 </script>
 <style scoped>
 .button {
+
     margin: 10px;
 }
 .first-button {
+    position: relative;
     padding-right: 10%;
-    margin-right: 30%;
+    margin-right: 0%;
     align-items: start;
     justify-content: start;
 }
 .last-button {
-    margin-left: 30%;
-    padding-left: 10%;
+    position: relative;
+    margin-left: 0%;
+    padding-left: 3%;
     align-items: start;
     justify-content: start;
 }
